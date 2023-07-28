@@ -18,6 +18,9 @@ function App() {
             <li>
                 <Link to="/use-context-example">useContext Example</Link>
             </li>
+            <li>
+                <Link to="/use-reducer-example">useReducer Example</Link>
+            </li>
         </ul>
     );
 }
