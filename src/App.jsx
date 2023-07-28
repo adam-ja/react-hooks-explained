@@ -9,6 +9,9 @@ function App() {
             <li>
                 <Link to="/use-effect-example">useEffect Example</Link>
             </li>
+            <li>
+                <Link to="/use-memo-example">useMemo Example</Link>
+            </li>
         </ul>
     );
 }
