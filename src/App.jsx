@@ -12,6 +12,9 @@ function App() {
             <li>
                 <Link to="/use-memo-example">useMemo Example</Link>
             </li>
+            <li>
+                <Link to="/use-ref-example">useRef Example</Link>
+            </li>
         </ul>
     );
 }
