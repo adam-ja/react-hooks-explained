@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-function App() {
+function UseStateExample() {
     /*
      * If we need to do some calculation to initialise the state, rather than a hardcoded value such as `0`, we can.
      * However, we should avoid putting a function call directly inside `useState()` as the function will then be called
@@ -25,12 +25,12 @@ function App() {
     }
 
     return (
-        <div id="counter">
+        <>
             <button onClick={decrementCount}>-</button>
             <span>{count}</span>
             <button onClick={incrementCount}>+</button>
-        </div>
+        </>
     );
 }
 
-export default App;
+export default UseStateExample;
