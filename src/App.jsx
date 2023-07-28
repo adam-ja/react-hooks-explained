@@ -15,6 +15,9 @@ function App() {
             <li>
                 <Link to="/use-ref-example">useRef Example</Link>
             </li>
+            <li>
+                <Link to="/use-context-example">useContext Example</Link>
+            </li>
         </ul>
     );
 }

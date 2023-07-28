@@ -6,6 +6,7 @@ import UseStateExample from './UseStateExample';
 import UseEffectExample from './UseEffectExample';
 import UseMemoExample from './UseMemoExample';
 import UseRefExample from './UseRefExample';
+import UseContextExample from './UseContextExample';
 import reportWebVitals from './reportWebVitals';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
@@ -17,6 +18,7 @@ const router = createBrowserRouter([
     { path: '/use-effect-example', element: <UseEffectExample /> },
     { path: '/use-memo-example', element: <UseMemoExample /> },
     { path: '/use-ref-example', element: <UseRefExample /> },
+    { path: '/use-context-example', element: <UseContextExample /> },
 ]);
 
 root.render(
