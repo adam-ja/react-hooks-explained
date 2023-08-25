@@ -12,6 +12,7 @@ import UseCallbackExample from './UseCallbackExample';
 import CustomHookExample from './CustomHookExample';
 import UseLayoutEffectExample from './UseLayoutEffectExample';
 import UseTransitionExample from './UseTransitionExample';
+import UseDeferredValueExample from './UseDeferredValueExample';
 import reportWebVitals from './reportWebVitals';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
@@ -29,6 +30,7 @@ const router = createBrowserRouter([
     { path: '/custom-hook-example', element: <CustomHookExample />},
     { path: '/use-layout-effect-example', element: <UseLayoutEffectExample />},
     { path: '/use-transition-example', element: <UseTransitionExample />},
+    { path: '/use-deferred-value-example', element: <UseDeferredValueExample />},
 ]);
 
 root.render(

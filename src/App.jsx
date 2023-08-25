@@ -33,6 +33,9 @@ function App() {
             <li>
                 <Link to="/use-transition-example">useTransition Example</Link>
             </li>
+            <li>
+                <Link to="/use-deferred-value-example">useDeferredValue Example</Link>
+            </li>
         </ul>
     );
 }
