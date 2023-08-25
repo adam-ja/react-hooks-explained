@@ -36,6 +36,9 @@ function App() {
             <li>
                 <Link to="/use-deferred-value-example">useDeferredValue Example</Link>
             </li>
+            <li>
+                <Link to="/use-imperative-handle-example">useImperativeHandle Example</Link>
+            </li>
         </ul>
     );
 }
