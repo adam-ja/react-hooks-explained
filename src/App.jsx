@@ -42,6 +42,9 @@ function App() {
             <li>
                 <Link to="/use-debug-value-example">useDebugValue Example</Link>
             </li>
+            <li>
+                <Link to="/use-id-example">useId Example</Link>
+            </li>
         </ul>
     );
 }
