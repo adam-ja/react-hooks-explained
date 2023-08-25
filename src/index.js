@@ -14,6 +14,7 @@ import UseLayoutEffectExample from './UseLayoutEffectExample';
 import UseTransitionExample from './UseTransitionExample';
 import UseDeferredValueExample from './UseDeferredValueExample';
 import UseImperativeHandleExample from './UseImperativeHandleExample';
+import UseDebugValueExample from './UseDebugValueExample';
 import reportWebVitals from './reportWebVitals';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
@@ -33,6 +34,7 @@ const router = createBrowserRouter([
     { path: '/use-transition-example', element: <UseTransitionExample />},
     { path: '/use-deferred-value-example', element: <UseDeferredValueExample />},
     { path: '/use-imperative-handle-example', element: <UseImperativeHandleExample />},
+    { path: '/use-debug-value-example', element: <UseDebugValueExample />},
 ]);
 
 root.render(

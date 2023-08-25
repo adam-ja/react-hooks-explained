@@ -39,6 +39,9 @@ function App() {
             <li>
                 <Link to="/use-imperative-handle-example">useImperativeHandle Example</Link>
             </li>
+            <li>
+                <Link to="/use-debug-value-example">useDebugValue Example</Link>
+            </li>
         </ul>
     );
 }
