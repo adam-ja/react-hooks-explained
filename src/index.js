@@ -10,6 +10,7 @@ import UseContextExample from './UseContextExample';
 import UseReducerExample from './UseReducerExample';
 import UseCallbackExample from './UseCallbackExample';
 import CustomHookExample from './CustomHookExample';
+import UseLayoutEffectExample from './UseLayoutEffectExample';
 import reportWebVitals from './reportWebVitals';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
@@ -25,6 +26,7 @@ const router = createBrowserRouter([
     { path: '/use-reducer-example', element: <UseReducerExample /> },
     { path: '/use-callback-example', element: <UseCallbackExample />},
     { path: '/custom-hook-example', element: <CustomHookExample />},
+    { path: '/use-layout-effect-example', element: <UseLayoutEffectExample />},
 ]);
 
 root.render(

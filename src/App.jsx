@@ -27,6 +27,9 @@ function App() {
             <li>
                 <Link to="/custom-hook-example">Custom Hook Example</Link>
             </li>
+            <li>
+                <Link to="/use-layout-effect-example">useLayoutEffect Example</Link>
+            </li>
         </ul>
     );
 }
