@@ -24,6 +24,9 @@ function App() {
             <li>
                 <Link to="/use-callback-example">useCallback Example</Link>
             </li>
+            <li>
+                <Link to="/custom-hook-example">Custom Hook Example</Link>
+            </li>
         </ul>
     );
 }
