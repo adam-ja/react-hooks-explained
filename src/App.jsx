@@ -21,6 +21,9 @@ function App() {
             <li>
                 <Link to="/use-reducer-example">useReducer Example</Link>
             </li>
+            <li>
+                <Link to="/use-callback-example">useCallback Example</Link>
+            </li>
         </ul>
     );
 }

@@ -8,6 +8,7 @@ import UseMemoExample from './UseMemoExample';
 import UseRefExample from './UseRefExample';
 import UseContextExample from './UseContextExample';
 import UseReducerExample from './UseReducerExample';
+import UseCallbackExample from './UseCallbackExample';
 import reportWebVitals from './reportWebVitals';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
@@ -21,6 +22,7 @@ const router = createBrowserRouter([
     { path: '/use-ref-example', element: <UseRefExample /> },
     { path: '/use-context-example', element: <UseContextExample /> },
     { path: '/use-reducer-example', element: <UseReducerExample /> },
+    { path: '/use-callback-example', element: <UseCallbackExample />},
 ]);
 
 root.render(
