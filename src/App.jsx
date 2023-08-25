@@ -30,6 +30,9 @@ function App() {
             <li>
                 <Link to="/use-layout-effect-example">useLayoutEffect Example</Link>
             </li>
+            <li>
+                <Link to="/use-transition-example">useTransition Example</Link>
+            </li>
         </ul>
     );
 }

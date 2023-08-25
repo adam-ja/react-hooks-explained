@@ -11,6 +11,7 @@ import UseReducerExample from './UseReducerExample';
 import UseCallbackExample from './UseCallbackExample';
 import CustomHookExample from './CustomHookExample';
 import UseLayoutEffectExample from './UseLayoutEffectExample';
+import UseTransitionExample from './UseTransitionExample';
 import reportWebVitals from './reportWebVitals';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
@@ -27,6 +28,7 @@ const router = createBrowserRouter([
     { path: '/use-callback-example', element: <UseCallbackExample />},
     { path: '/custom-hook-example', element: <CustomHookExample />},
     { path: '/use-layout-effect-example', element: <UseLayoutEffectExample />},
+    { path: '/use-transition-example', element: <UseTransitionExample />},
 ]);
 
 root.render(
